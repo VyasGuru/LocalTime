@@ -1,0 +1,37 @@
+.lt-local-time-pill {
+  align-self: center;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 8px;
+  padding: 3px 9px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.07);
+  color: currentColor;
+  font: 600 12px/18px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.lt-local-time-pill:hover { background: rgba(0, 0, 0, 0.12); }
+.lt-local-time-pill:focus-visible { outline: 2px solid #0a66c2; outline-offset: 2px; }
+
+.lt-local-time-dot {
+  width: 7px;
+  height: 7px;
+  flex: none;
+  border-radius: 50%;
+  background: #8c8c8c;
+}
+
+.lt-work .lt-local-time-dot { background: #198754; }
+.lt-edge .lt-local-time-dot { background: #d97706; }
+.lt-night .lt-local-time-dot { background: #7c3aed; }
+.lt-loading .lt-local-time-dot,
+.lt-unknown .lt-local-time-dot { background: #8c8c8c; }
+
+@media (prefers-color-scheme: dark) {
+  .lt-local-time-pill { background: rgba(255, 255, 255, 0.12); }
+  .lt-local-time-pill:hover { background: rgba(255, 255, 255, 0.18); }
+}

@@ -1,0 +1,36 @@
+# Private captures and local fixtures
+/samples/
+
+# Packaged extension and build output
+*.zip
+*.crx
+/dist/
+/web-ext-artifacts/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.har
+
+# Dependencies, coverage, and logs
+node_modules/
+coverage/
+*.log
+npm-debug.log*
+
+# OS and editor metadata
+.DS_Store
+.vscode/
+.idea/
+
+# Local AI/agent instructions and state
+.claude/
+.agents/
+.codex/
+CLAUDE.md
+CLAUDE.local.md
+AGENTS.md
+AGENTS.local.md
