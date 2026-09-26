@@ -2,12 +2,6 @@
 
 LocalTime is an unofficial Chrome extension that adds the other participant's local time to the header of a one-to-one LinkedIn conversation. It reads the participant's profile link, fetches that LinkedIn profile page using your existing signed-in session, extracts the displayed location, and resolves it to a time zone. You can click the time pill to enter a city or IANA time zone manually.
 
-> [!WARNING]
-> LocalTime is not affiliated with, endorsed by, or produced by LinkedIn. LinkedIn says it does not permit browser extensions that scrape data, modify the appearance of its website, or automate activity. This extension modifies LinkedIn's messaging page and fetches profile pages, so using it may violate LinkedIn's User Agreement and may put your account at risk of restriction. A profile fetch may also count as a profile view; LinkedIn does not document whether this type of background request is recorded as one. Use it at your own risk.
-
-- [LinkedIn: Prohibited software and extensions](https://www.linkedin.com/help/linkedin/answer/a1341387/prohibited-software-and-extensions)
-- [LinkedIn User Agreement](https://www.linkedin.com/legal/user-agreement)
-
 ## Install
 
 1. Download or clone this repository.
